@@ -1,32 +1,43 @@
-###1001
+#입출력 문제
+### 1001
+```
+import numpy as np
 public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Hello");
 	}
 }
-###1002
+```
+### 1002
+```
 public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 	}
 }
-###1003
+```
+### 1003
+```
 public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Hello\nWorld");
 	}
 }
-###1004
+```
+### 1004
+```
 public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("'Hello'");
 	}
 }
-###1005
+```
+### 1005
+```
 public class Main {
 
 	public static void main(String[] args) {
@@ -34,7 +45,9 @@ public class Main {
 		
 	}
 }
-###1006
+```
+### 1006
+```
 public class Main {
 
 	public static void main(String[] args) {
@@ -42,7 +55,9 @@ public class Main {
 		
 	}
 }
-###1007
+```
+### 1007
+```
 public class Main {
 
 	public static void main(String[] args) {
@@ -50,7 +65,9 @@ public class Main {
 		
 	}
 }
-###1008
+```
+### 1008
+```
 public class Main {
 
 	public static void main(String[] args) {
@@ -58,7 +75,9 @@ public class Main {
 	
 	}
 }
-###1010
+```
+### 1010
+```
 import java.util.Scanner;
 
 public class Main {
@@ -72,7 +91,9 @@ public class Main {
 	
 	}
 }
-###1011
+```
+### 1011
+```
 import java.util.Scanner;
 
 public class Main{
@@ -85,7 +106,9 @@ public class Main{
         System.out.println(x);
     }
 }
-###1012
+```
+### 1012
+```
 import java.util.Scanner;
 
 public class Main{
@@ -99,7 +122,9 @@ public class Main{
     }
     
 }
-###1013
+```
+### 1013
+```
 import java.util.Scanner;
 
 public class Main {
@@ -115,7 +140,9 @@ public class Main {
 	
 	}
 }
-###1014
+```
+### 1014
+```
 import java.util.Scanner;
 
 public class Main {
@@ -131,7 +158,9 @@ public class Main {
 	
 	}
 }
-###1015
+```
+### 1015
+```
 import java.util.Scanner;
 
 public class Main {
@@ -145,7 +174,9 @@ public class Main {
 	
 	}
 }
-###1017
+```
+### 1017
+```
 import java.util.Scanner;
 
 public class Main {
@@ -158,7 +189,9 @@ public class Main {
              System.out.println(a+" "+a+" "+a);
 	}
 }
-###1019
+```
+### 1019
+```
 import java.util.*;
 
 public class Main {
@@ -190,7 +223,7 @@ public class Main {
 	    System.out.println(yyyy+"."+mm+"."+dd);
 	}
 }
-
+```
 
 
 
