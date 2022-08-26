@@ -224,6 +224,27 @@ public class Main {
 	}
 }
 ```
+-다른풀이(이편이 코드도 짧고 간단하다)
+```
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		String input;
+		Scanner scan=new Scanner(System.in);
+		input=scan.next();
+		String[] inputArr=input.split("\\.");
+
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int c=Integer.valueOf(inputArr[2]);
+		System.out.printf("%04d.%02d.%02d",a,b,c);
+	}
+}
+
+```
 
 
 
