@@ -1,4 +1,7 @@
-# 입출력 문제
+
+# 코드업 기초 100제
+[코드업 기초 100제](https://codeup.kr/problemsetsol.php)
+## 입출력 문제
 ### 1001
 ```
 import numpy as np
@@ -245,11 +248,124 @@ public class Main {
 }
 
 ```
+### 1020
+```
+import java.util.*;
 
+public class Main {
 
+	public static void main(String[] args) {
+	
+		String input;
+		Scanner scan=new Scanner(System.in);
+		input=scan.next();
+		String[] inputArr=input.split("-");
 
+		System.out.println(inputArr[0]+inputArr[1]);
+	}
+}
+```
+###1021
+```
 
+import java.util.*;
 
+public class Main {
 
+	public static void main(String[] args) {
+	
+		String a;
+		Scanner scan=new Scanner(System.in);
+		a=scan.next();
+		System.out.println(a);
+	}
+}
+
+```
+###1022
+
+```
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		String a;
+		Scanner scan=new Scanner(System.in);
+		a=scan.nextLine();
+		System.out.println(a);
+	}
+}
+
+```
+
+java로 문제를 풀다보니 입출력문제 답이 비슷비슷하다..
+
+###1023
+```
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		String a;
+		Scanner scan=new Scanner(System.in);
+		a=scan.next();
+		int b=Integer.parseInt(a.split("\\.")[0]);
+		int c=Integer.parseInt(a.split("\\.")[1]);
+		System.out.println(b+"\n"+c);
+	}
+}
+```
+###1024
+```
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		String a;
+		Scanner scan=new Scanner(System.in);
+		a=scan.next();
+		for(int i=0;i<a.length();i++)
+		{
+			System.out.printf("\'%c\'\n", a.charAt(i));
+		}
+	}
+}
+```
+###1025
+```
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		String input;
+		Scanner scan=new Scanner(System.in);
+		input=scan.next();
+		String[] inputArr=input.split("");
+		int count=4;
+		for(int i=0;i<input.length();i++)
+		{
+		    int b=Integer.valueOf(inputArr[i]);
+		    if(count>0)
+		    {
+		    	System.out.printf("[%d]\n",b*(int)Math.pow(10, count));	
+		    }else
+		    {
+		    	System.out.printf("[%d]\n",b);	
+		    }
+			
+			count=count-1;
+		}
+	}
+}
+
+```
 
 
