@@ -265,7 +265,7 @@ public class Main {
 	}
 }
 ```
-###1021
+### 1021
 ```
 
 import java.util.*;
@@ -282,7 +282,7 @@ public class Main {
 }
 
 ```
-###1022
+### 1022
 
 ```
 import java.util.*;
@@ -302,7 +302,7 @@ public class Main {
 
 java로 문제를 풀다보니 입출력문제 답이 비슷비슷하다..
 
-###1023
+###  1023
 ```
 import java.util.*;
 
@@ -319,7 +319,7 @@ public class Main {
 	}
 }
 ```
-###1024
+### 1024
 ```
 import java.util.*;
 
@@ -337,7 +337,7 @@ public class Main {
 	}
 }
 ```
-###1025
+### 1025
 ```
 import java.util.*;
 
