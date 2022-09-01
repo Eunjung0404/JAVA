@@ -415,6 +415,7 @@ public class Main {
 				answer =remainder+answer;
 			}else
 			{
+			        //16진수 변환을 위한 코드
 				answer=(char)(remainder+55)+answer;
 			}
 			num /=i;
