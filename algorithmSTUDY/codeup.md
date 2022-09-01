@@ -387,6 +387,7 @@ public class Main {
 
 ```
  서식문자로 변환해서 출력하면되는 간단한 문제였으나 초반에 코드로 변환을하려고 하니까 잘안풀렸다.
+ 몫과 나머지를 따로 저장해서 합치면 되지않을까했는데 변환이 잘 안되서 고민했다
  
  인터넷에서 찾은 해결방법
 ```
@@ -401,16 +402,17 @@ public class Main {
 	
 	public static String changeNumber(int num,int i)
 	{
+	     //항상 변수 초기화를 하는 습관을 들일것
 		String answer="";
 		int remainder=0;
 		
 		while(num !=0)
 		{
 			remainder=num%i;
+			//10진수니까 조건들어감
 			if(num%i<10)
 			{
 				answer =remainder+answer;
-				System.out.println(answer);
 			}else
 			{
 				answer=(char)(remainder+55)+answer;
