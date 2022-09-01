@@ -367,5 +367,61 @@ public class Main {
 }
 
 ```
+### 1031
+ 10진수를 8진수로 출력하는문제
+```
+import java.util.*;
 
+public class Main {
+
+	public static void main(String[] args) {
+	
+		int input;
+		Scanner scan=new Scanner(System.in);
+		input=scan.nextInt();
+		System.out.printf("%o",input);
+		
+	}
+	
+}
+
+```
+ 서식문자로 변환해서 출력하면되는 간단한 문제였으나 초반에 코드로 변환을하려고 하니까 잘안풀렸다.
+ 
+ 인터넷에서 찾은 해결방법
+```
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		System.out.println(changeNumber(100, 8));
+	}
+	
+	public static String changeNumber(int num,int i)
+	{
+		String answer="";
+		int remainder=0;
+		
+		while(num !=0)
+		{
+			remainder=num%i;
+			if(num%i<10)
+			{
+				answer =remainder+answer;
+				System.out.println(answer);
+			}else
+			{
+				answer=(char)(remainder+55)+answer;
+			}
+			num /=i;
+		}
+		
+		return answer;
+	}
+	
+}
+
+```
 
