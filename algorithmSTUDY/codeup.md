@@ -3,7 +3,7 @@
 [코드업 기초 100제](https://codeup.kr/problemsetsol.php)
 ## 입출력 문제
 ### 1001
-```
+```java
 import numpy as np
 public class Main {
 
@@ -13,7 +13,7 @@ public class Main {
 }
 ```
 ### 1002
-```
+```java
 public class Main {
 
 	public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Main {
 }
 ```
 ### 1003
-```
+```java
 public class Main {
 
 	public static void main(String[] args) {
@@ -31,7 +31,7 @@ public class Main {
 }
 ```
 ### 1004
-```
+```java
 public class Main {
 
 	public static void main(String[] args) {
@@ -40,7 +40,7 @@ public class Main {
 }
 ```
 ### 1005
-```
+```java
 public class Main {
 
 	public static void main(String[] args) {
@@ -50,7 +50,7 @@ public class Main {
 }
 ```
 ### 1006
-```
+```java
 public class Main {
 
 	public static void main(String[] args) {
@@ -60,7 +60,7 @@ public class Main {
 }
 ```
 ### 1007
-```
+```java
 public class Main {
 
 	public static void main(String[] args) {
@@ -70,7 +70,7 @@ public class Main {
 }
 ```
 ### 1008
-```
+```java
 public class Main {
 
 	public static void main(String[] args) {
@@ -80,7 +80,7 @@ public class Main {
 }
 ```
 ### 1010
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -96,7 +96,7 @@ public class Main {
 }
 ```
 ### 1011
-```
+```java
 import java.util.Scanner;
 
 public class Main{
@@ -111,7 +111,7 @@ public class Main{
 }
 ```
 ### 1012
-```
+```java
 import java.util.Scanner;
 
 public class Main{
@@ -127,7 +127,7 @@ public class Main{
 }
 ```
 ### 1013
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -145,7 +145,7 @@ public class Main {
 }
 ```
 ### 1014
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -163,7 +163,7 @@ public class Main {
 }
 ```
 ### 1015
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -179,7 +179,7 @@ public class Main {
 }
 ```
 ### 1017
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -194,7 +194,7 @@ public class Main {
 }
 ```
 ### 1019
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -228,7 +228,7 @@ public class Main {
 }
 ```
 -다른풀이(이편이 코드도 짧고 간단하다)
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -249,7 +249,7 @@ public class Main {
 
 ```
 ### 1020
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -266,7 +266,7 @@ public class Main {
 }
 ```
 ### 1021
-```
+```java
 
 import java.util.*;
 
@@ -284,7 +284,7 @@ public class Main {
 ```
 ### 1022
 
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -303,7 +303,7 @@ public class Main {
 java로 문제를 풀다보니 입출력문제 답이 비슷비슷하다..
 
 ###  1023
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -320,7 +320,7 @@ public class Main {
 }
 ```
 ### 1024
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -338,7 +338,7 @@ public class Main {
 }
 ```
 ### 1025
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -367,9 +367,109 @@ public class Main {
 }
 
 ```
+### 1027
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		String input;
+		Scanner scan=new Scanner(System.in);
+		input=scan.next();
+		String[] inputArr=input.split("\\.");
+		int yyyy=Integer.valueOf(inputArr[0]);
+		int mm=Integer.valueOf(inputArr[1]);
+		int dd=Integer.valueOf(inputArr[2]);
+		
+		System.out.printf("%02d-%02d-%04d",dd,mm,yyyy);
+		
+		
+	}
+}
+```
+### 1026
+```java 
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		String input;
+		Scanner scan=new Scanner(System.in);
+		input=scan.next();
+		String[] inputArr=input.split(":");
+		
+		if(Integer.valueOf(inputArr[1])>0)
+		{
+			System.out.println(inputArr[1]);	
+		}else
+		{
+			System.out.println("0");
+		}
+		
+		
+	}
+}
+```
+분을 출력하는 문제였는데 입력값이 0이면 00으로 출력해야해서 if문으로 처리했다.
+### 1028
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		long a;
+		Scanner scan=new Scanner(System.in);
+		a=scan.nextLong();
+		System.out.println(a);
+
+	}
+	
+}
+```
+### 1029
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+
+		double d;
+		Scanner scan=new Scanner(System.in);
+		d=scan.nextDouble();
+		System.out.printf("%.11f", d);
+		}
+	
+}
+```
+### 1030
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+
+		long a;
+		Scanner scan=new Scanner(System.in);
+		a=scan.nextLong();
+		System.out.println(a);
+		
+	}
+	
+}
+```
 ### 1031
  10진수를 8진수로 출력하는문제
-```
+```java
 import java.util.*;
 
 public class Main {
@@ -390,7 +490,7 @@ public class Main {
  몫과 나머지를 따로 저장해서 합치면 되지않을까했는데 변환이 잘 안되서 고민했다
  
  인터넷에서 찾은 해결방법
-```
+```java
 import java.util.*;
 
 public class Main {
