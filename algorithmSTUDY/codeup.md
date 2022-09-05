@@ -528,3 +528,22 @@ public class Main {
 
 ```
 
+### 1031
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan=new Scanner(System.in);
+		int a=Integer.valueOf(scan.next(),8);
+		System.out.println(a);
+	}
+	
+	
+}
+```
+- 방법1 valueOf로 변환한다.
+- 방법2 parseInt로 변환한다.
+- 방법3 Scanner로 입력받을때 nextInt(n)을 사용한다. n의 값에따라 n진수로 받는다.
