@@ -528,7 +528,7 @@ public class Main {
 
 ```
 
-### 1031
+### 1034
 ```java
 import java.util.*;
 
@@ -547,3 +547,76 @@ public class Main {
 - 방법1 valueOf로 변환한다.
 - 방법2 parseInt로 변환한다.
 - 방법3 Scanner로 입력받을때 nextInt(n)을 사용한다. n의 값에따라 n진수로 받는다.
+
+### 1035
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan=new Scanner(System.in);
+		int a=scan.nextInt(16);
+		System.out.printf("%o",a);
+	}
+	
+	
+}
+
+```
+### 1036
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan=new Scanner(System.in);
+		char a=scan.next().charAt(0);
+		System.out.printf("%d",Integer.valueOf(a));
+	}
+	
+	
+}
+```
+### 1037
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan=new Scanner(System.in);
+		int a=scan.nextInt();
+		System.out.println((char)a);
+	}
+	
+	
+}
+
+```
+### 1038
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan=new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		long a= Long.parseLong(inputArr[0]);
+	    long b= Long.parseLong(inputArr[1]);
+		System.out.println(a+b);
+	}
+	
+	
+}
+```
+*참고 int와 long의 범위(계산의 결과가 int범위를 넘어가는지 확인할것!
+ -   int: -2,147,483,648 ~ 2,147,483,647
+ -   long: -9223372036854775808 ~ 9223372036854775807
