@@ -736,3 +736,112 @@ public class Main {
 }
 
 ```
+### 1046
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input= scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int c=Integer.valueOf(inputArr[2]);
+		long result=a+b+c;
+		System.out.println(result);
+		System.out.printf("%.1f",(float)result/3);
+	
+	}
+	
+	
+}
+```
+### 1047
+ -  비프시프트 연산
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		int a=scan.nextInt();
+		System.out.printf("%d",a<<1);
+	}
+	
+	
+}
+```
+### 1048
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int n=Integer.valueOf(inputArr[1]);
+		System.out.printf("%d",a<<n);
+	}
+	
+	
+}
+```
+### 1049
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if(a>b)
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+```
+### 1050
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if(a==b)
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+```
