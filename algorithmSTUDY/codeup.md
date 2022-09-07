@@ -467,7 +467,7 @@ public class Main {
 	
 }
 ```
-### 1031
+### 1031 - 1033
  10진수를 8진수로 출력하는문제
 ```java
 import java.util.*;
@@ -598,7 +598,7 @@ public class Main {
 }
 
 ```
-### 1038
+### 1038 - 1039
 ```java
 import java.util.*;
 
@@ -620,3 +620,119 @@ public class Main {
 *참고 int와 long의 범위(계산의 결과가 int범위를 넘어가는지 확인할것!
  -   int: -2,147,483,648 ~ 2,147,483,647
  -   long: -9223372036854775808 ~ 9223372036854775807
+### 1010
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		int a=scan.nextInt();
+		System.out.println(-a);
+	}
+	
+	
+}
+```
+### 1041
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		char a=scan.next().charAt(0);
+		System.out.println((char)(a+1));
+	}
+	
+	
+}
+```
+### 1042
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input= scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		System.out.println(a/b);
+	}
+	
+	
+}
+```
+- 묵시적 (데이터)형변환 : 자동으로 값의 자료형이 바뀌는 것
+- 명시적 (데이터)형변환 : 어떤 값이나 결과의 자료형을 강제로 바꾸는 것
+### 1043
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input= scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		System.out.println(a%b);
+	}
+	
+	
+}
+```
+### 1044
+ - 증감연산자 활용
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		long a=scan.nextInt();
+		System.out.println(++a);
+	}
+	
+	
+}
+```
+### 1045
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input= scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		long plus=a+b;
+		System.out.println(plus);
+		System.out.println(a-b);
+		long multi=a*b;
+		System.out.println(multi);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		System.out.printf("%.2f",(float)a/b);
+	}
+	
+	
+}
+
+```
