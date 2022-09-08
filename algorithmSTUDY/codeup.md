@@ -12,6 +12,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1002
 ```java
 public class Main {
@@ -21,6 +22,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1003
 ```java
 public class Main {
@@ -30,6 +32,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1004
 ```java
 public class Main {
@@ -39,6 +42,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1005
 ```java
 public class Main {
@@ -49,6 +53,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1006
 ```java
 public class Main {
@@ -59,6 +64,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1007
 ```java
 public class Main {
@@ -69,6 +75,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1008
 ```java
 public class Main {
@@ -79,6 +86,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1010
 ```java
 import java.util.Scanner;
@@ -95,6 +103,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1011
 ```java
 import java.util.Scanner;
@@ -110,6 +119,7 @@ public class Main{
     }
 }
 ```
+#
 ### 1012
 ```java
 import java.util.Scanner;
@@ -126,6 +136,7 @@ public class Main{
     
 }
 ```
+#
 ### 1013
 ```java
 import java.util.Scanner;
@@ -144,6 +155,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1014
 ```java
 import java.util.Scanner;
@@ -162,6 +174,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1015
 ```java
 import java.util.Scanner;
@@ -178,6 +191,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1017
 ```java
 import java.util.Scanner;
@@ -193,6 +207,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1019
 ```java
 import java.util.*;
@@ -248,6 +263,7 @@ public class Main {
 }
 
 ```
+#
 ### 1020
 ```java
 import java.util.*;
@@ -265,6 +281,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1021
 ```java
 
@@ -282,6 +299,7 @@ public class Main {
 }
 
 ```
+#
 ### 1022
 
 ```java
@@ -301,7 +319,7 @@ public class Main {
 ```
 
 java로 문제를 풀다보니 입출력문제 답이 비슷비슷하다..
-
+#
 ###  1023
 ```java
 import java.util.*;
@@ -319,6 +337,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1024
 ```java
 import java.util.*;
@@ -337,6 +356,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1025
 ```java
 import java.util.*;
@@ -367,6 +387,7 @@ public class Main {
 }
 
 ```
+#
 ### 1027
 ```java
 import java.util.*;
@@ -389,6 +410,7 @@ public class Main {
 	}
 }
 ```
+#
 ### 1026
 ```java 
 import java.util.*;
@@ -415,6 +437,7 @@ public class Main {
 }
 ```
 분을 출력하는 문제였는데 입력값이 0이면 00으로 출력해야해서 if문으로 처리했다.
+#
 ### 1028
 ```java
 import java.util.*;
@@ -432,6 +455,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1029
 ```java
 import java.util.*;
@@ -449,6 +473,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1030
 ```java
 import java.util.*;
@@ -467,6 +492,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1031 - 1033
  10진수를 8진수로 출력하는문제
 ```java
@@ -527,7 +553,7 @@ public class Main {
 }
 
 ```
-
+#
 ### 1034
 ```java
 import java.util.*;
@@ -547,7 +573,7 @@ public class Main {
 - 방법1 valueOf로 변환한다.
 - 방법2 parseInt로 변환한다.
 - 방법3 Scanner로 입력받을때 nextInt(n)을 사용한다. n의 값에따라 n진수로 받는다.
-
+#
 ### 1035
 ```java
 import java.util.*;
@@ -565,6 +591,7 @@ public class Main {
 }
 
 ```
+#
 ### 1036
 ```java
 import java.util.*;
@@ -581,6 +608,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1037
 ```java
 import java.util.*;
@@ -598,6 +626,7 @@ public class Main {
 }
 
 ```
+#
 ### 1038 - 1039
 ```java
 import java.util.*;
@@ -620,6 +649,7 @@ public class Main {
 *참고 int와 long의 범위(계산의 결과가 int범위를 넘어가는지 확인할것!
  -   int: -2,147,483,648 ~ 2,147,483,647
  -   long: -9223372036854775808 ~ 9223372036854775807
+#
 ### 1010
 ```java
 import java.util.*;
@@ -636,6 +666,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1041
 ```java
 import java.util.*;
@@ -652,6 +683,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1042
 ```java
 import java.util.*;
@@ -673,6 +705,7 @@ public class Main {
 ```
 - 묵시적 (데이터)형변환 : 자동으로 값의 자료형이 바뀌는 것
 - 명시적 (데이터)형변환 : 어떤 값이나 결과의 자료형을 강제로 바꾸는 것
+#
 ### 1043
 ```java
 import java.util.*;
@@ -692,6 +725,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1044
  - 증감연산자 활용
 ```java
@@ -709,6 +743,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1045
 ```java
 import java.util.*;
@@ -736,6 +771,7 @@ public class Main {
 }
 
 ```
+#
 ### 1046
 ```java
 import java.util.*;
@@ -759,6 +795,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1047
  -  비프시프트 연산
 ```java
@@ -776,6 +813,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1048
 ```java
 import java.util.*;
@@ -795,6 +833,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1049
 ```java
 import java.util.*;
@@ -820,6 +859,7 @@ public class Main {
 	
 }
 ```
+#
 ### 1050
 ```java
 import java.util.*;
@@ -839,6 +879,368 @@ public class Main {
 			result=1;
 		}
 		System.out.println(result);
+	
+	}
+	
+	
+}
+```
+#
+### 1051
+```java
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if(a<=b)
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+```
+#
+### 1052
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if(a!=b)
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+
+```
+#
+### 1053
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		int a =scan.nextInt();
+		if(a==0)
+		{
+			a=1;
+		}else
+		{
+			a=0;
+		}
+	
+		System.out.println(a);
+	}
+	
+	
+}
+```
+#
+### 1054
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if(a==1 && b==1)
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+```
+#
+### 1055
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if(a==1 || b==1)
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+
+```
+#
+### 1056
+```java
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if((a==1 && b!=1) || (a!=1 && b==1) )
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+```
+#
+### 1057
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if(a==b)
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+
+```
+#
+### 1058
+```java
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.valueOf(inputArr[0]);
+		int b=Integer.valueOf(inputArr[1]);
+		int result=0;
+		if(a==0 && b==0)
+		{
+			result=1;
+		}
+		System.out.println(result);
+	
+	}
+	
+	
+}
+
+```
+#
+### 1059
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		int a=scan.nextInt();
+		System.out.println(~a);
+	}
+	
+	
+	
+}
+```
+#
+### 1060
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input=scan.nextLine();
+		String[] inputArr=input.split("\\s");
+		int a=Integer.parseInt(inputArr[0]);
+		int b=Integer.parseInt(inputArr[1]);
+		System.out.println(a&b);
+	}
+	
+	
+	
+}
+
+```
+-비트단위로 and 연산하는 방법이 두개의 컴퓨터가 같은 데트워크에 있는지 아닌지를 판단하는데 사용된다는 예시가 있어서 작성해본 소스
+```java
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+	    String ip1="192.168.0.31";
+	    String ip2="255.255.255.0";
+	    String[] ip1Arr=ip1.split("\\.");
+	    String[] ip2Arr=ip2.split("\\.");
+	    String ip="";
+
+	    for(int i=0;i<ip1Arr.length;i++)
+	    {
+	    	int a=Integer.parseInt(ip1Arr[i]);
+			int b=Integer.parseInt(ip2Arr[i]);
+			ip += (a&b)+".";
+	    }
+		System.out.println(ip);
+
+	}
+	
+	
+	
+}
+```
+신기하다.
+#
+### 1064
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);
+		String input= scan.nextLine();
+		String[] inputArr= input.split("\\s");
+		int a=Integer.parseInt(inputArr[0]);
+		int b=Integer.parseInt(inputArr[1]);
+		int c=Integer.parseInt(inputArr[2]);
+		System.out.println((a<b ? a:b)<c?(a<b? a:b):c);
+	}
+	
+	
+	
+}
+```
+ - 삼항연산자를 이용. 이중으로 쓰니 헷갈리는데 확실히 잘 알면 코드가 짧아지긴 할것같다.
+
+#
+### 1071
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);	
+		while(true)
+		{
+			String input=scan.next();
+			int a=Integer.valueOf(input);
+			if(a==0) {
+				break;
+			}else
+			{
+				System.out.println(a);
+			}
+		}
+	
+	}
+	
+	
+}
+```
+#
+### 1079
+```java
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Scanner scan= new Scanner(System.in);	
+		while(true)
+		{
+			char input=scan.next().charAt(0);
+			if(input=='q') {
+				System.out.println(input);
+				break;
+			}else
+			{
+				System.out.println(input);
+			}
+		}
 	
 	}
 	
