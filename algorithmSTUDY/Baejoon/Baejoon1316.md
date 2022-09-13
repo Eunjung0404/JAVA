@@ -114,6 +114,11 @@ public class Main {
 
 ```
 
+# :books:풀이
+Scanner사용<br>
+ArrayList사용=>동적인 배열크기<br>
+보기편하게 함수로 체크기능 구현
+
 ## 참고 사항
 - 문자열이 하나일때 고려
 - 기존에 문자열이 있는지 고려
@@ -123,5 +128,5 @@ public class Main {
 -2번 틀림 
 -풀이 중 반례
 ```
-
+abcbe
 ```
